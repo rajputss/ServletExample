@@ -21,6 +21,11 @@ public class Student {
 		super();
 	}
 
+	public Student(String firstName2, String lastName2, String city2, int id2,
+			int age2, String phoneNumber2, String email2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getId() {
 		return id;
 	}
