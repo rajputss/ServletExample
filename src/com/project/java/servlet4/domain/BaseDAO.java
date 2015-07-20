@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class BaseDAO {
 	
-	private static final String jdbcURL = "jdbc:mysql://127.0.0.1:3306/redbox";
+	private static final String jdbcURL = "jdbc:mysql://127.0.0.1:3306/demo";
 	private static final String username = "root";
 	private static final String password = "root";
 	
