@@ -19,4 +19,5 @@ public class DAOException extends RuntimeException{
 	public DAOException(SQLException ex) {
 		super(ex);
 	}
+
 }

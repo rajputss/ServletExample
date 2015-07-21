@@ -33,14 +33,14 @@ public class StudentDAOJDBCImpl extends BaseDAO implements StudentDAO {
 				String email = resultSet.getString("email");
 				
 
-				Student student = new Student(firstName, lastName, city, id, age, phoneNumber, email);
-				/*student.setAge(age);
+				Student student = new Student();
+				student.setAge(age);
 				student.setCity(city);
 				student.setEmail(email);
 				student.setFirstName(firstName);
 				student.setId(id);
 				student.setLastName(lastName);
-				student.setPhoneNumber(phoneNumber);*/
+				student.setPhoneNumber(phoneNumber);
 
 				students.add(student);
 			}
